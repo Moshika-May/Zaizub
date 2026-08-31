@@ -1,0 +1,86 @@
+# ==============================================================================
+# 1. Virtual Environments & Python Packages
+# ==============================================================================
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================================================================
+# 2. Node Modules
+# ==============================================================================
+node_modules/
+*/node_modules/
+
+# ==============================================================================
+# 3. Environment Variables & Secrets
+# ==============================================================================
+.env
+.env*.local
+.env.development
+.env.production
+key/
+*.pem
+*.key
+
+# ==============================================================================
+# 4. Next.js / Frontend Build Outputs & Cache
+# ==============================================================================
+.next/
+*/.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+frontend/next-env.d.ts
+
+# ==============================================================================
+# 5. Next.js Auto-Generated Agent Files (re-created by next dev, do not commit)
+# ==============================================================================
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# ==============================================================================
+# 6. Frontend .gitignore (Next.js scaffolds its own, don't need to track it)
+# ==============================================================================
+frontend/.gitignore
+
+# ==============================================================================
+# 7. Backend / Python Cache & Artifacts
+# ==============================================================================
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================================================================
+# 8. Media, Uploads & Temporary Storage
+# ==============================================================================
+backend/temp_storage/*
+!backend/temp_storage/.gitkeep
+temp_storage/*
+!temp_storage/.gitkeep
+
+backend/data/input_videos/*
+!backend/data/input_videos/.gitkeep
+backend/data/output_mp3/*
+!backend/data/output_mp3/.gitkeep
+backend/data/output_subtitles/*
+!backend/data/output_subtitles/.gitkeep
+
+# ==============================================================================
+# 9. IDE, Editors & OS Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
